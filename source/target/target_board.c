@@ -22,10 +22,10 @@
 #include "string.h"
 #include "target_board.h"
 
-// Default empty board info. 
-__attribute__((weak)) 
+// Default empty board info.
+__attribute__((weak))
 const board_info_t g_board_info = {
-		.infoVersion = 0x1234,
+		.info_version = kBoardInfoVersion,
 		.board_id = "0000",
 		.daplink_url_name =       "MBED    HTM",
 		.daplink_drive_name = 		"DAPLINK    ",
